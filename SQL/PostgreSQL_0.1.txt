@@ -1,0 +1,32 @@
+﻿
+
+CREATE TABLE adresaci(adres TEXT PRIMARY KEY);
+CREATE TABLE przedmioty(przedmiot TEXT PRIMARY KEY);
+
+
+#=========================================================================================================
+
+
+GRANT DELETE, INSERT, SELECT, UPDATE ON TABLE adresaci TO user_1;
+GRANT DELETE, INSERT, SELECT, UPDATE ON TABLE przedmioty TO user_1;
+
+
+#=========================================================================================================
+
+
+REVOKE ALL ON TABLE adresaci FROM user_1;
+DROP TABLE IF EXISTS adresaci;
+REVOKE ALL ON TABLE przedmioty FROM user_1;
+DROP TABLE IF EXISTS przedmioty;
+
+
+#=========================================================================================================
+
+
+DELETE FROM adresaci;
+DELETE FROM przedmioty;
+SELECT COUNT(*) FROM adresaci;
+SELECT * FROM adresaci;
+
+
+#=========================================================================================================

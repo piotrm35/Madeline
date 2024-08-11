@@ -79,7 +79,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>działający w imieniu i na rzecz:</string>
+     <string>działający(a) w imieniu i na rzecz:</string>
     </property>
    </widget>
    <widget class="QLabel" name="Inwestor_label">
@@ -289,9 +289,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>100</y>
-      <width>60</width>
+      <width>40</width>
       <height>22</height>
      </rect>
     </property>
@@ -308,9 +308,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>220</y>
-      <width>60</width>
+      <width>40</width>
       <height>22</height>
      </rect>
     </property>
@@ -327,9 +327,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>410</y>
-      <width>60</width>
+      <width>40</width>
       <height>22</height>
      </rect>
     </property>
@@ -671,6 +671,63 @@
     </property>
     <property name="text">
      <string notr="true">automat</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Usun_skladajacy_pushButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>100</y>
+      <width>40</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string notr="true">zapisz do bazy danych</string>
+    </property>
+    <property name="text">
+     <string notr="true">usuń</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Usun_inwestor_pushButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>220</y>
+      <width>40</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string notr="true">zapisz do bazy danych</string>
+    </property>
+    <property name="text">
+     <string notr="true">usuń</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Usun_przedmiot_pushButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>410</y>
+      <width>40</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string notr="true">zapisz do bazy danych</string>
+    </property>
+    <property name="text">
+     <string notr="true">usuń</string>
     </property>
    </widget>
   </widget>
